@@ -83,6 +83,8 @@ siren/
     ├── case_06_isolation_probing.txt
     ├── case_07_secrecy_enforcement.txt
     └── case_08_boundary_escalation.txt
+```
+
 Quickstart & Installation
 1. Clone & Set Up Environment
 git clone https://github.com/challa-mahitha/Siren.git
