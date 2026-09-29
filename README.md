@@ -112,8 +112,9 @@ http://localhost:8000
 Benchmark Evaluation Results
 
 Running evaluate_benchmark.py against the standardized validation suite yields:
+---
 
-Scenario / TranscriptGround TruthPredicted ClassRisk ScoreExpected TierActive VectorsStatus
+## Scenario / TranscriptGround TruthPredicted ClassRisk ScoreExpected TierActive VectorsStatus
 case_01_homework_study.txt0012SAFE / BENIGNNonePASS
 case_02_gaming_banter.txt0012SAFE / BENIGNNonePASS
 case_03_benign_secrecy.txt0012SAFE / BENIGNNone (Disambiguated)PASS
@@ -126,11 +127,14 @@ Benchmark Accuracy: 100.0%
 Benign Disambiguation False Positive Rate (FPR): 0.0%
 Critical Recall: 100.0%
 Citation & References
+
+```text
 @inproceedings{inches2012overview,
   title={Overview of the International Sexual Predator Identification Competition at PAN-2012},
   author={Inches, Giacomo and Crestani, Fabio},
   booktitle={CLEF 2012 Evaluation Labs and Workshop - Working Notes Papers},
   year={2012},
   address={Rome, Italy}
-}
+} *
+```
 
