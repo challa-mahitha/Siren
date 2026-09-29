@@ -1,0 +1,5 @@
+﻿__pycache__/
+*.py[cod]
+data/pan12_raw/
+data/*.zip
+data/*.tar.gz
